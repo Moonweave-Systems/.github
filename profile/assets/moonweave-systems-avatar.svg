@@ -1,36 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
   <title id="title">Moonweave Systems avatar</title>
-  <desc id="desc">A systems kernel chip with connected workflow nodes.</desc>
-  <defs>
-    <radialGradient id="bg" cx="42%" cy="28%" r="80%">
-      <stop offset="0" stop-color="#182a5a"/>
-      <stop offset="0.58" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#05070f"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="204" y1="792" x2="816" y2="220" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2dd4bf"/>
-      <stop offset="0.52" stop-color="#2f81f7"/>
-      <stop offset="1" stop-color="#a371f7"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="15" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
-  <path d="M258 392h-74M258 512h-96M258 632h-74M766 392h74M766 512h96M766 632h74M392 258v-74M512 258v-96M632 258v-74M392 766v74M512 766v96M632 766v74" stroke="#303d68" stroke-width="26" stroke-linecap="round"/>
-  <rect x="258" y="258" width="508" height="508" rx="118" fill="#0d1428" stroke="url(#edge)" stroke-width="26"/>
-  <rect x="342" y="342" width="340" height="340" rx="78" fill="#111b35" stroke="#243a69" stroke-width="12"/>
-  <path d="M390 520h132" stroke="#e6edf3" stroke-width="34" stroke-linecap="round"/>
-  <path d="M564 434l82 78-82 78" fill="none" stroke="#2dd4bf" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M244 746c127-88 215-88 321 0 70 58 136 70 215 26" fill="none" stroke="url(#edge)" stroke-width="28" stroke-linecap="round"/>
-  <g filter="url(#glow)">
-    <circle cx="244" cy="746" r="27" fill="#2dd4bf"/>
-    <circle cx="512" cy="704" r="23" fill="#2f81f7"/>
-    <circle cx="780" cy="772" r="27" fill="#a371f7"/>
-    <circle cx="512" cy="512" r="34" fill="#2f81f7" opacity="0.9"/>
-  </g>
+  <desc id="desc">A restrained systems kernel mark with a command line and signal pins.</desc>
+  <rect width="1024" height="1024" fill="#f7f8fa"/>
+  <circle cx="512" cy="512" r="352" fill="#ffffff" stroke="#d9dee8" stroke-width="18"/>
+  <path d="M302 382h-82M302 512h-110M302 642h-82M722 382h82M722 512h110M722 642h82M382 302v-82M512 302v-110M642 302v-82M382 722v82M512 722v110M642 722v82" stroke="#b9c0cc" stroke-width="18" stroke-linecap="round"/>
+  <rect x="302" y="302" width="420" height="420" rx="76" fill="#ffffff" stroke="#1f2937" stroke-width="28"/>
+  <rect x="378" y="378" width="268" height="268" rx="44" fill="#f9fafb" stroke="#c8ced8" stroke-width="12"/>
+  <path d="M418 522h116" stroke="#1f2937" stroke-width="28" stroke-linecap="round"/>
+  <path d="M554 452l76 60-76 60" fill="none" stroke="#2f5f9f" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="512" cy="512" r="18" fill="#2f5f9f"/>
 </svg>
