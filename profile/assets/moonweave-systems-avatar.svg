@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Moonweave Systems avatar</title>
+  <desc id="desc">A crescent moon and woven system paths on a dark circular field.</desc>
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </radialGradient>
+    <linearGradient id="systemLine" x1="232" y1="790" x2="802" y2="222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.5" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="356" fill="none" stroke="#1f6feb" stroke-width="18" opacity="0.22"/>
+  <circle cx="512" cy="512" r="276" fill="none" stroke="#2dd4bf" stroke-width="8" opacity="0.18"/>
+
+  <path d="M638 215c-129 20-227 132-227 267 0 150 121 271 271 271 41 0 80-9 115-25-59 79-153 130-259 130-179 0-324-145-324-324 0-158 113-289 263-318 55-11 109-9 161-1z" fill="#e6edf3"/>
+  <path d="M638 215c-129 20-227 132-227 267 0 55 16 106 44 149-74-34-125-109-125-196 0-113 86-207 196-216 37-3 74-2 112-4z" fill="#9fb3c8" opacity="0.18"/>
+
+  <path d="M246 679c122-2 189-76 280-151 88-72 161-120 277-108" fill="none" stroke="url(#systemLine)" stroke-width="32" stroke-linecap="round"/>
+  <path d="M246 760c122-2 189-76 280-151 88-72 161-120 277-108" fill="none" stroke="url(#systemLine)" stroke-width="20" stroke-linecap="round" opacity="0.88"/>
+  <path d="M260 592c103 35 182 9 272-38 89-47 162-78 276-46" fill="none" stroke="#8b5cf6" stroke-width="14" stroke-linecap="round" opacity="0.65"/>
+
+  <g filter="url(#softGlow)">
+    <circle cx="246" cy="679" r="28" fill="#2dd4bf"/>
+    <circle cx="526" cy="528" r="24" fill="#2f81f7"/>
+    <circle cx="803" cy="420" r="28" fill="#a371f7"/>
+    <circle cx="246" cy="760" r="21" fill="#2dd4bf"/>
+    <circle cx="803" cy="501" r="21" fill="#a371f7"/>
+  </g>
+</svg>

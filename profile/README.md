@@ -1,5 +1,7 @@
 # Moonweave Systems
 
+<img align="right" width="112" src="https://raw.githubusercontent.com/Moonweave-Systems/.github/main/profile/assets/moonweave-systems-avatar-512.png" alt="Moonweave Systems mark">
+
 AI-assisted developer systems for safer agent workflows, sharper decisions, and more observable automation.
 
 ![Agent workflows](https://img.shields.io/badge/agent_workflows-1f6feb?style=flat-square)
